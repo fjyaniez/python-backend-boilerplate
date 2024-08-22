@@ -28,6 +28,6 @@ To run the project locally, follow these steps:
 
 ## Project Structure
 
-`src/models`: Define your data models here.
-`src/admin`: Configure SQLAlchemy Admin in this directory.
-`src/utils`: Place global utility functions and helpers here.
+- `src/models`: Define your data models here.
+- `src/admin`: Configure SQLAlchemy Admin in this directory.
+- `src/utils`: Place global utility functions and helpers here.
