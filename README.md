@@ -24,8 +24,6 @@ To run the project locally, follow these steps:
    fastapi dev src/main.py
    ```
 
-<img width="1023" alt="image" src="https://github.com/user-attachments/assets/96fa82e2-6f40-41a5-9e2d-b683c9a98fe2">
-
 ## Project Structure
 
 - `src/models`: Define your data models here.
