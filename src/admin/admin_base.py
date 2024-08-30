@@ -1,13 +1,14 @@
 from sqladmin import Admin
-from ..utils.db import Db
 
-from .user_admin import UserAdmin
+from ..utils.database import Database
+
+from .chatbot_admin import ChatbotAdmin
+
 
 class AdminBase:
     admin = None
 
     def __init__(self, app):
-        AdminBase.admin = Admin(app, Db.get_engine())
+        AdminBase.admin = Admin(app, Database.get_engine())
 
-        AdminBase.admin.add_view(UserAdmin)
-    
+        AdminBase.admin.add_view(ChatbotAdmin)

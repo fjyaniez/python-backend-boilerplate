@@ -8,7 +8,10 @@ class Db:
     @staticmethod
     def prepare():
         print("Preparing database...")
-        SQLModel.metadata.create_all(Db.engine)
+
+    @staticmethod
+    def create_tables():
+        SQLModel.metadata.create_all(Db.engine)        
 
     @staticmethod
     def get_engine():
